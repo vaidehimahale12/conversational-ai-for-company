@@ -29,8 +29,8 @@ class QueryRequest(BaseModel):
 
 class QueryResponse(BaseModel):
     sql: str
-    results: List[Any]
-    explanation: str
+    data: List[Any]
+    answer: str
     latency: float
 
 # RBAC Configuration
@@ -103,8 +103,8 @@ async def process_query(request: QueryRequest):
         latency = time.time() - start_time
         return QueryResponse(
             sql=sql,
-            results=results,
-            explanation="Mock response (OPENAI_API_KEY not set)",
+            data=results,
+            answer="Mock response (OPENAI_API_KEY not set)",
             latency=latency
         )
 
@@ -137,8 +137,8 @@ async def process_query(request: QueryRequest):
         latency = time.time() - start_time
         return QueryResponse(
             sql=sql_query,
-            results=results,
-            explanation=f"Successfully executed query as {request.role}",
+            data=results,
+            answer=f"Successfully executed query as {request.role}",
             latency=latency
         )
     except Exception as e:

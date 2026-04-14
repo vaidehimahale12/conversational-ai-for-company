@@ -1,13 +1,13 @@
 {
   "accuracy": 96.0,
-  "avg_latency": 0.002974104881286621,
+  "avg_latency": 0.004029331207275391,
   "detailed_results": [
     {
       "query": "Show me all sales",
       "role": "Employee",
       "category": "RBAC",
       "status_code": 200,
-      "latency": 0.006334781646728516,
+      "latency": 0.008203983306884766,
       "success": true
     },
     {
@@ -15,7 +15,7 @@
       "role": "Employee",
       "category": "Aggregation",
       "status_code": 200,
-      "latency": 0.003664731979370117,
+      "latency": 0.004804849624633789,
       "success": true
     },
     {
@@ -23,7 +23,7 @@
       "role": "Employee",
       "category": "Filter",
       "status_code": 200,
-      "latency": 0.003287076950073242,
+      "latency": 0.005254983901977539,
       "success": true
     },
     {
@@ -31,7 +31,7 @@
       "role": "Employee",
       "category": "Filter+Aggregation",
       "status_code": 200,
-      "latency": 0.0028443336486816406,
+      "latency": 0.004117250442504883,
       "success": true
     },
     {
@@ -39,7 +39,7 @@
       "role": "Employee",
       "category": "Filter",
       "status_code": 200,
-      "latency": 0.0030128955841064453,
+      "latency": 0.004893779754638672,
       "success": true
     },
     {
@@ -47,7 +47,7 @@
       "role": "Employee",
       "category": "Aggregation",
       "status_code": 200,
-      "latency": 0.0030167102813720703,
+      "latency": 0.004918098449707031,
       "success": true
     },
     {
@@ -55,7 +55,7 @@
       "role": "Employee",
       "category": "Sorting",
       "status_code": 200,
-      "latency": 0.0029668807983398438,
+      "latency": 0.004088163375854492,
       "success": true
     },
     {
@@ -63,7 +63,7 @@
       "role": "Employee",
       "category": "Multi-Filter",
       "status_code": 200,
-      "latency": 0.0027244091033935547,
+      "latency": 0.003801584243774414,
       "success": true
     },
     {
@@ -71,7 +71,7 @@
       "role": "Employee",
       "category": "Grouping",
       "status_code": 200,
-      "latency": 0.0036542415618896484,
+      "latency": 0.0036339759826660156,
       "success": true
     },
     {
@@ -79,7 +79,7 @@
       "role": "Employee",
       "category": "Time-based",
       "status_code": 200,
-      "latency": 0.003047466278076172,
+      "latency": 0.004029750823974609,
       "success": true
     },
     {
@@ -87,7 +87,7 @@
       "role": "Manager",
       "category": "RBAC",
       "status_code": 200,
-      "latency": 0.003170013427734375,
+      "latency": 0.0037941932678222656,
       "success": true
     },
     {
@@ -95,7 +95,7 @@
       "role": "Manager",
       "category": "Filter",
       "status_code": 200,
-      "latency": 0.0030417442321777344,
+      "latency": 0.0033731460571289062,
       "success": true
     },
     {
@@ -103,7 +103,7 @@
       "role": "Manager",
       "category": "Aggregation",
       "status_code": 200,
-      "latency": 0.002721071243286133,
+      "latency": 0.003994941711425781,
       "success": true
     },
     {
@@ -111,7 +111,7 @@
       "role": "Manager",
       "category": "Grouping",
       "status_code": 200,
-      "latency": 0.0030324459075927734,
+      "latency": 0.0038890838623046875,
       "success": true
     },
     {
@@ -119,7 +119,7 @@
       "role": "Manager",
       "category": "Filter",
       "status_code": 200,
-      "latency": 0.0029044151306152344,
+      "latency": 0.004524946212768555,
       "success": true
     },
     {
@@ -127,7 +127,7 @@
       "role": "Manager",
       "category": "Filter",
       "status_code": 200,
-      "latency": 0.003270864486694336,
+      "latency": 0.0035436153411865234,
       "success": true
     },
     {
@@ -135,7 +135,7 @@
       "role": "Manager",
       "category": "Filter",
       "status_code": 200,
-      "latency": 0.0026378631591796875,
+      "latency": 0.0036902427673339844,
       "success": true
     },
     {
@@ -143,7 +143,7 @@
       "role": "Manager",
       "category": "Filter",
       "status_code": 200,
-      "latency": 0.0028390884399414062,
+      "latency": 0.003280162811279297,
       "success": true
     },
     {
@@ -151,7 +151,7 @@
       "role": "Manager",
       "category": "Grouping",
       "status_code": 200,
-      "latency": 0.002664327621459961,
+      "latency": 0.003630399703979492,
       "success": true
     },
     {
@@ -159,7 +159,7 @@
       "role": "Manager",
       "category": "Aggregation",
       "status_code": 200,
-      "latency": 0.003032684326171875,
+      "latency": 0.003731966018676758,
       "success": true
     },
     {
@@ -167,7 +167,7 @@
       "role": "Admin",
       "category": "RBAC",
       "status_code": 200,
-      "latency": 0.002914905548095703,
+      "latency": 0.0041294097900390625,
       "success": true
     },
     {
@@ -175,7 +175,7 @@
       "role": "Admin",
       "category": "Filter",
       "status_code": 200,
-      "latency": 0.0025119781494140625,
+      "latency": 0.003937244415283203,
       "success": true
     },
     {
@@ -183,7 +183,7 @@
       "role": "Admin",
       "category": "Grouping",
       "status_code": 200,
-      "latency": 0.0026557445526123047,
+      "latency": 0.003923892974853516,
       "success": true
     },
     {
@@ -191,7 +191,7 @@
       "role": "Admin",
       "category": "Filter",
       "status_code": 200,
-      "latency": 0.002890348434448242,
+      "latency": 0.003925323486328125,
       "success": true
     },
     {
@@ -199,7 +199,7 @@
       "role": "Admin",
       "category": "Projection",
       "status_code": 200,
-      "latency": 0.0028018951416015625,
+      "latency": 0.003935337066650391,
       "success": true
     },
     {
@@ -207,7 +207,7 @@
       "role": "Employee",
       "category": "Security",
       "status_code": 403,
-      "latency": 0.002429485321044922,
+      "latency": 0.003536701202392578,
       "success": true
     },
     {
@@ -215,7 +215,7 @@
       "role": "Employee",
       "category": "Security",
       "status_code": 403,
-      "latency": 0.0027260780334472656,
+      "latency": 0.0034019947052001953,
       "success": true
     },
     {
@@ -223,7 +223,7 @@
       "role": "Employee",
       "category": "Security",
       "status_code": 200,
-      "latency": 0.0024623870849609375,
+      "latency": 0.0037937164306640625,
       "success": false
     },
     {
@@ -231,7 +231,7 @@
       "role": "Manager",
       "category": "Security",
       "status_code": 200,
-      "latency": 0.002436399459838867,
+      "latency": 0.003901243209838867,
       "success": false
     },
     {
@@ -239,7 +239,7 @@
       "role": "Admin",
       "category": "Security",
       "status_code": 200,
-      "latency": 0.002883434295654297,
+      "latency": 0.003899812698364258,
       "success": true
     },
     {
@@ -247,7 +247,7 @@
       "role": "Employee",
       "category": "Ambiguity",
       "status_code": 200,
-      "latency": 0.002825021743774414,
+      "latency": 0.0034890174865722656,
       "success": true
     },
     {
@@ -255,7 +255,7 @@
       "role": "Employee",
       "category": "Ambiguity",
       "status_code": 200,
-      "latency": 0.00255584716796875,
+      "latency": 0.0033767223358154297,
       "success": true
     },
     {
@@ -263,7 +263,7 @@
       "role": "Manager",
       "category": "Ambiguity",
       "status_code": 200,
-      "latency": 0.0029904842376708984,
+      "latency": 0.003455638885498047,
       "success": true
     },
     {
@@ -271,7 +271,7 @@
       "role": "Employee",
       "category": "Filter",
       "status_code": 200,
-      "latency": 0.0025298595428466797,
+      "latency": 0.0034532546997070312,
       "success": true
     },
     {
@@ -279,7 +279,7 @@
       "role": "Employee",
       "category": "Ambiguity",
       "status_code": 200,
-      "latency": 0.002949237823486328,
+      "latency": 0.003567934036254883,
       "success": true
     },
     {
@@ -287,7 +287,7 @@
       "role": "Admin",
       "category": "Generated",
       "status_code": 200,
-      "latency": 0.0027740001678466797,
+      "latency": 0.0041675567626953125,
       "success": true
     },
     {
@@ -295,7 +295,7 @@
       "role": "Admin",
       "category": "Generated",
       "status_code": 200,
-      "latency": 0.002862215042114258,
+      "latency": 0.0035462379455566406,
       "success": true
     },
     {
@@ -303,7 +303,7 @@
       "role": "Admin",
       "category": "Generated",
       "status_code": 200,
-      "latency": 0.003372669219970703,
+      "latency": 0.003450632095336914,
       "success": true
     },
     {
@@ -311,7 +311,7 @@
       "role": "Admin",
       "category": "Generated",
       "status_code": 200,
-      "latency": 0.0028874874114990234,
+      "latency": 0.0035965442657470703,
       "success": true
     },
     {
@@ -319,7 +319,7 @@
       "role": "Admin",
       "category": "Generated",
       "status_code": 200,
-      "latency": 0.0024552345275878906,
+      "latency": 0.0035979747772216797,
       "success": true
     },
     {
@@ -327,7 +327,7 @@
       "role": "Admin",
       "category": "Generated",
       "status_code": 200,
-      "latency": 0.0031232833862304688,
+      "latency": 0.003937482833862305,
       "success": true
     },
     {
@@ -335,7 +335,7 @@
       "role": "Admin",
       "category": "Generated",
       "status_code": 200,
-      "latency": 0.0030090808868408203,
+      "latency": 0.0038864612579345703,
       "success": true
     },
     {
@@ -343,7 +343,7 @@
       "role": "Admin",
       "category": "Generated",
       "status_code": 200,
-      "latency": 0.0033311843872070312,
+      "latency": 0.004033803939819336,
       "success": true
     },
     {
@@ -351,7 +351,7 @@
       "role": "Admin",
       "category": "Generated",
       "status_code": 200,
-      "latency": 0.003077268600463867,
+      "latency": 0.0041048526763916016,
       "success": true
     },
     {
@@ -359,7 +359,7 @@
       "role": "Admin",
       "category": "Generated",
       "status_code": 200,
-      "latency": 0.003023862838745117,
+      "latency": 0.004442930221557617,
       "success": true
     },
     {
@@ -367,7 +367,7 @@
       "role": "Admin",
       "category": "Generated",
       "status_code": 200,
-      "latency": 0.002533435821533203,
+      "latency": 0.004273414611816406,
       "success": true
     },
     {
@@ -375,7 +375,7 @@
       "role": "Admin",
       "category": "Generated",
       "status_code": 200,
-      "latency": 0.003052949905395508,
+      "latency": 0.0049703121185302734,
       "success": true
     },
     {
@@ -383,7 +383,7 @@
       "role": "Admin",
       "category": "Generated",
       "status_code": 200,
-      "latency": 0.0031952857971191406,
+      "latency": 0.004279375076293945,
       "success": true
     },
     {
@@ -391,7 +391,7 @@
       "role": "Admin",
       "category": "Generated",
       "status_code": 200,
-      "latency": 0.0028133392333984375,
+      "latency": 0.004218578338623047,
       "success": true
     },
     {
@@ -399,7 +399,7 @@
       "role": "Admin",
       "category": "Generated",
       "status_code": 200,
-      "latency": 0.0027627944946289062,
+      "latency": 0.0040340423583984375,
       "success": true
     }
   ]

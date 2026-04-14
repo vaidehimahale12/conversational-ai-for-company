@@ -4,12 +4,12 @@ import App from './App';
 
 test('renders app title', () => {
   render(<App />);
-  const titleElement = screen.getByText(/Conversational Data System/i);
+  const titleElement = screen.getByText(/Conversational Data Hub/i);
   expect(titleElement).toBeInTheDocument();
 });
 
-test('renders role selector', () => {
+test('renders sidebar title', () => {
   render(<App />);
-  const labelElement = screen.getByText(/User Role:/i);
-  expect(labelElement).toBeInTheDocument();
+  const sidebarTitle = screen.getByText(/DataChat AI/i);
+  expect(sidebarTitle).toBeInTheDocument();
 });
