@@ -73,6 +73,17 @@ def setup_database(db_path="enterprise_data.db"):
     ]
     cursor.executemany('INSERT INTO employees VALUES (?, ?, ?, ?, ?)', employees_data)
 
+    # Create Feedback table
+    cursor.execute('''
+    CREATE TABLE IF NOT EXISTS feedback (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        query TEXT NOT NULL,
+        sql TEXT NOT NULL,
+        rating INTEGER NOT NULL,
+        timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+    )
+    ''')
+
     conn.commit()
     conn.close()
     print(f"Database setup complete: {db_path}")
