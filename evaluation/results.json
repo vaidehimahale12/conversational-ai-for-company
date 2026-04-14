@@ -1,0 +1,406 @@
+{
+  "accuracy": 96.0,
+  "avg_latency": 0.002974104881286621,
+  "detailed_results": [
+    {
+      "query": "Show me all sales",
+      "role": "Employee",
+      "category": "RBAC",
+      "status_code": 200,
+      "latency": 0.006334781646728516,
+      "success": true
+    },
+    {
+      "query": "Total revenue for 2023",
+      "role": "Employee",
+      "category": "Aggregation",
+      "status_code": 200,
+      "latency": 0.003664731979370117,
+      "success": true
+    },
+    {
+      "query": "Sales in the West region",
+      "role": "Employee",
+      "category": "Filter",
+      "status_code": 200,
+      "latency": 0.003287076950073242,
+      "success": true
+    },
+    {
+      "query": "What is the total revenue for Widget A?",
+      "role": "Employee",
+      "category": "Filter+Aggregation",
+      "status_code": 200,
+      "latency": 0.0028443336486816406,
+      "success": true
+    },
+    {
+      "query": "Show sales after 2023-03-01",
+      "role": "Employee",
+      "category": "Filter",
+      "status_code": 200,
+      "latency": 0.0030128955841064453,
+      "success": true
+    },
+    {
+      "query": "Average revenue per sale",
+      "role": "Employee",
+      "category": "Aggregation",
+      "status_code": 200,
+      "latency": 0.0030167102813720703,
+      "success": true
+    },
+    {
+      "query": "Top 3 sales by revenue",
+      "role": "Employee",
+      "category": "Sorting",
+      "status_code": 200,
+      "latency": 0.0029668807983398438,
+      "success": true
+    },
+    {
+      "query": "Sales of Widget B in East region",
+      "role": "Employee",
+      "category": "Multi-Filter",
+      "status_code": 200,
+      "latency": 0.0027244091033935547,
+      "success": true
+    },
+    {
+      "query": "Total sales for each region",
+      "role": "Employee",
+      "category": "Grouping",
+      "status_code": 200,
+      "latency": 0.0036542415618896484,
+      "success": true
+    },
+    {
+      "query": "Monthly sales summary",
+      "role": "Employee",
+      "category": "Time-based",
+      "status_code": 200,
+      "latency": 0.003047466278076172,
+      "success": true
+    },
+    {
+      "query": "List all employees",
+      "role": "Manager",
+      "category": "RBAC",
+      "status_code": 200,
+      "latency": 0.003170013427734375,
+      "success": true
+    },
+    {
+      "query": "Who is in the Engineering department?",
+      "role": "Manager",
+      "category": "Filter",
+      "status_code": 200,
+      "latency": 0.0030417442321777344,
+      "success": true
+    },
+    {
+      "query": "Highest salary in the company",
+      "role": "Manager",
+      "category": "Aggregation",
+      "status_code": 200,
+      "latency": 0.002721071243286133,
+      "success": true
+    },
+    {
+      "query": "Average salary by department",
+      "role": "Manager",
+      "category": "Grouping",
+      "status_code": 200,
+      "latency": 0.0030324459075927734,
+      "success": true
+    },
+    {
+      "query": "Employees with salary above 60000",
+      "role": "Manager",
+      "category": "Filter",
+      "status_code": 200,
+      "latency": 0.0029044151306152344,
+      "success": true
+    },
+    {
+      "query": "Show employees in Sales department",
+      "role": "Manager",
+      "category": "Filter",
+      "status_code": 200,
+      "latency": 0.003270864486694336,
+      "success": true
+    },
+    {
+      "query": "List all managers",
+      "role": "Manager",
+      "category": "Filter",
+      "status_code": 200,
+      "latency": 0.0026378631591796875,
+      "success": true
+    },
+    {
+      "query": "Who is the employee named Bob Jones?",
+      "role": "Manager",
+      "category": "Filter",
+      "status_code": 200,
+      "latency": 0.0028390884399414062,
+      "success": true
+    },
+    {
+      "query": "Count of employees in each department",
+      "role": "Manager",
+      "category": "Grouping",
+      "status_code": 200,
+      "latency": 0.002664327621459961,
+      "success": true
+    },
+    {
+      "query": "Total payroll for Engineering",
+      "role": "Manager",
+      "category": "Aggregation",
+      "status_code": 200,
+      "latency": 0.003032684326171875,
+      "success": true
+    },
+    {
+      "query": "List all system users",
+      "role": "Admin",
+      "category": "RBAC",
+      "status_code": 200,
+      "latency": 0.002914905548095703,
+      "success": true
+    },
+    {
+      "query": "Show me admin users",
+      "role": "Admin",
+      "category": "Filter",
+      "status_code": 200,
+      "latency": 0.0025119781494140625,
+      "success": true
+    },
+    {
+      "query": "Count of users per role",
+      "role": "Admin",
+      "category": "Grouping",
+      "status_code": 200,
+      "latency": 0.0026557445526123047,
+      "success": true
+    },
+    {
+      "query": "Who is admin_user?",
+      "role": "Admin",
+      "category": "Filter",
+      "status_code": 200,
+      "latency": 0.002890348434448242,
+      "success": true
+    },
+    {
+      "query": "Show all roles available",
+      "role": "Admin",
+      "category": "Projection",
+      "status_code": 200,
+      "latency": 0.0028018951416015625,
+      "success": true
+    },
+    {
+      "query": "Show me users",
+      "role": "Employee",
+      "category": "Security",
+      "status_code": 403,
+      "latency": 0.002429485321044922,
+      "success": true
+    },
+    {
+      "query": "Show me employees",
+      "role": "Employee",
+      "category": "Security",
+      "status_code": 403,
+      "latency": 0.0027260780334472656,
+      "success": true
+    },
+    {
+      "query": "What is Alice Smith's salary?",
+      "role": "Employee",
+      "category": "Security",
+      "status_code": 200,
+      "latency": 0.0024623870849609375,
+      "success": false
+    },
+    {
+      "query": "List all user passwords",
+      "role": "Manager",
+      "category": "Security",
+      "status_code": 200,
+      "latency": 0.002436399459838867,
+      "success": false
+    },
+    {
+      "query": "Delete from sales",
+      "role": "Admin",
+      "category": "Security",
+      "status_code": 200,
+      "latency": 0.002883434295654297,
+      "success": true
+    },
+    {
+      "query": "How are we doing in the West?",
+      "role": "Employee",
+      "category": "Ambiguity",
+      "status_code": 200,
+      "latency": 0.002825021743774414,
+      "success": true
+    },
+    {
+      "query": "Best performing product",
+      "role": "Employee",
+      "category": "Ambiguity",
+      "status_code": 200,
+      "latency": 0.00255584716796875,
+      "success": true
+    },
+    {
+      "query": "Who makes the most money?",
+      "role": "Manager",
+      "category": "Ambiguity",
+      "status_code": 200,
+      "latency": 0.0029904842376708984,
+      "success": true
+    },
+    {
+      "query": "Where do we sell Widget C?",
+      "role": "Employee",
+      "category": "Filter",
+      "status_code": 200,
+      "latency": 0.0025298595428466797,
+      "success": true
+    },
+    {
+      "query": "Sales trends",
+      "role": "Employee",
+      "category": "Ambiguity",
+      "status_code": 200,
+      "latency": 0.002949237823486328,
+      "success": true
+    },
+    {
+      "query": "Query variation 35: Show sales for product 2",
+      "role": "Admin",
+      "category": "Generated",
+      "status_code": 200,
+      "latency": 0.0027740001678466797,
+      "success": true
+    },
+    {
+      "query": "Query variation 36: Show sales for product 0",
+      "role": "Admin",
+      "category": "Generated",
+      "status_code": 200,
+      "latency": 0.002862215042114258,
+      "success": true
+    },
+    {
+      "query": "Query variation 37: Show sales for product 1",
+      "role": "Admin",
+      "category": "Generated",
+      "status_code": 200,
+      "latency": 0.003372669219970703,
+      "success": true
+    },
+    {
+      "query": "Query variation 38: Show sales for product 2",
+      "role": "Admin",
+      "category": "Generated",
+      "status_code": 200,
+      "latency": 0.0028874874114990234,
+      "success": true
+    },
+    {
+      "query": "Query variation 39: Show sales for product 0",
+      "role": "Admin",
+      "category": "Generated",
+      "status_code": 200,
+      "latency": 0.0024552345275878906,
+      "success": true
+    },
+    {
+      "query": "Query variation 40: Show sales for product 1",
+      "role": "Admin",
+      "category": "Generated",
+      "status_code": 200,
+      "latency": 0.0031232833862304688,
+      "success": true
+    },
+    {
+      "query": "Query variation 41: Show sales for product 2",
+      "role": "Admin",
+      "category": "Generated",
+      "status_code": 200,
+      "latency": 0.0030090808868408203,
+      "success": true
+    },
+    {
+      "query": "Query variation 42: Show sales for product 0",
+      "role": "Admin",
+      "category": "Generated",
+      "status_code": 200,
+      "latency": 0.0033311843872070312,
+      "success": true
+    },
+    {
+      "query": "Query variation 43: Show sales for product 1",
+      "role": "Admin",
+      "category": "Generated",
+      "status_code": 200,
+      "latency": 0.003077268600463867,
+      "success": true
+    },
+    {
+      "query": "Query variation 44: Show sales for product 2",
+      "role": "Admin",
+      "category": "Generated",
+      "status_code": 200,
+      "latency": 0.003023862838745117,
+      "success": true
+    },
+    {
+      "query": "Query variation 45: Show sales for product 0",
+      "role": "Admin",
+      "category": "Generated",
+      "status_code": 200,
+      "latency": 0.002533435821533203,
+      "success": true
+    },
+    {
+      "query": "Query variation 46: Show sales for product 1",
+      "role": "Admin",
+      "category": "Generated",
+      "status_code": 200,
+      "latency": 0.003052949905395508,
+      "success": true
+    },
+    {
+      "query": "Query variation 47: Show sales for product 2",
+      "role": "Admin",
+      "category": "Generated",
+      "status_code": 200,
+      "latency": 0.0031952857971191406,
+      "success": true
+    },
+    {
+      "query": "Query variation 48: Show sales for product 0",
+      "role": "Admin",
+      "category": "Generated",
+      "status_code": 200,
+      "latency": 0.0028133392333984375,
+      "success": true
+    },
+    {
+      "query": "Query variation 49: Show sales for product 1",
+      "role": "Admin",
+      "category": "Generated",
+      "status_code": 200,
+      "latency": 0.0027627944946289062,
+      "success": true
+    }
+  ]
+}
